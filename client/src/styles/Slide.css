@@ -1,0 +1,62 @@
+.slide {
+    border: 9px solid white;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.img {
+    border-radius: 5px;
+    display: block;
+}
+
+.title {
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
+    color: rgb(72, 72, 72);
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 21px !important;
+    max-height: 42px !important;
+    text-overflow: ellipsis !important;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2 !important;
+    -webkit-box-orient: vertical !important;
+    margin-bottom: 4px !important;
+    overflow: hidden !important;
+}
+
+.price {
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 18px !important;
+    letter-spacing: normal !important;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
+    color: rgb(72, 72, 72) !important;
+}
+
+.numOfReviews {
+    font-weight: 600 !important;
+    word-wrap: break-word !important;
+    font-size: 12px !important;
+    line-height: 16px !important;
+    letter-spacing: normal !important;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
+    color: rgb(72, 72, 72) !important;
+    display: inline !important;
+    margin: 0px !important;
+}
+
+.category {
+    font-family: sans-serif;
+    color: rgb(72, 72, 72);
+    margin-top: 10px;
+    font-weight: 800 !important;
+    font-size: 12px !important;
+    line-height: 21px !important;
+    max-height: 42px !important;
+    text-overflow: ellipsis !important;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2 !important;
+    -webkit-box-orient: vertical !important;
+    margin-bottom: 4px !important;
+    overflow: hidden !important;
+}
