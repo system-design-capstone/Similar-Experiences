@@ -55,7 +55,7 @@ class Slide extends React.Component {
         return (
             <div className={styles.slide}>
                 <img className={styles.img}src={imgurl}/>
-                <div className={styles.category} style={catStyle}>{category} &#183; &#11089;${price}</div>
+                <div className={styles.category} style={catStyle}>{category} &#183; ${price}</div>
                 <div className={styles.title}>{title}</div>
                 <div className={styles.price}>${price} per person</div>
                 <div>

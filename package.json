@@ -7,7 +7,21 @@
     "setup": "node ./database/fakeData/fakeData.js",
     "build": "webpack -w",
     "start": "nodemon ./server/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint src",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "notify": true,
+    "verbose": true,
+    "testURL": "http://localhost/",
+    "moduleFileExtensions": [
+      "js",
+      "jsx",
+      "json"
+    ],
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?)$"
   },
   "repository": {
     "type": "git",
@@ -30,13 +44,15 @@
     "body-parser": "^1.18.3",
     "cors": "^2.8.4",
     "express": "^4.16.3",
+    "jest": "^23.4.2",
     "mongoose": "^5.2.4",
     "nodemon": "^1.18.3",
     "normalize.css": "^8.0.0",
     "path": "^0.12.7",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "styled-components": "^3.3.3"
+    "styled-components": "^3.3.3",
+    "supertest": "^3.1.0"
   },
   "devDependencies": {
     "Faker": "^0.7.2",
