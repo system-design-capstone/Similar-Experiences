@@ -18,6 +18,7 @@ class Carousel extends React.Component {
     }
 
     componentDidMount(){
+        console.log('carousel mounted');
         this.fetchSlides();
     }
 

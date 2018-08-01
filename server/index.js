@@ -4,6 +4,7 @@ const path = require('path');
 const db = require('../database/index');
 const router = require('./router');
 const cors = require('cors');
+const request = require('supertest');
 
 const app = express();
 const port = 3001;
