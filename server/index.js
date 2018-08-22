@@ -1,7 +1,10 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
-const db = require('../database/index');
+// const connection = require('../database/mongodatabase/index');
+// const connection = require('../database/couchbasedatabase/index');
+// const connection = require('../database/mysqldatabase/index');
+const connection = require('../database/postgresdatabase/index');
 const router = require('./router');
 const cors = require('cors');
 const request = require('supertest');

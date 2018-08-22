@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "setup": "node ./database/fakeData/fakeData.js",
+    "setup": "node ./database/mongodatabase/fakeData/fakeData.js",
     "build": "webpack -w",
     "start": "nodemon ./server/index.js",
     "lint": "eslint src",
@@ -43,15 +43,21 @@
     "babel-preset-react": "^6.24.1",
     "body-parser": "^1.18.3",
     "cors": "^2.8.4",
+    "couchbase": "^2.5.1",
     "express": "^4.16.3",
+    "faker": "^4.1.0",
     "jest": "^23.4.2",
     "mongoose": "^5.2.4",
+    "mysql": "^2.16.0",
     "nodemon": "^1.18.3",
     "normalize.css": "^8.0.0",
     "path": "^0.12.7",
+    "pg": "^7.4.3",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "styled-components": "^3.3.3"
+    "sequelize": "^4.38.0",
+    "styled-components": "^3.3.3",
+    "uuid": "^3.3.2"
   },
   "devDependencies": {
     "Faker": "^0.7.2",
