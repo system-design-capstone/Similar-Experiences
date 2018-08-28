@@ -3,12 +3,6 @@ const Sequelize = require('sequelize');
 const db = require('./index');
 
 const experienceModel = db.define('SimilarExperience', {
-    id: {
-       type: Sequelize.INTEGER,
-       primaryKey: true,
-       autoIncrement: true,
-       allowNull: false
-    },
     location: {
         type: Sequelize.STRING,
         allowNull: false

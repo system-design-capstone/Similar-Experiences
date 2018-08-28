@@ -1,0 +1,9 @@
+{
+    "location": "yeeeet",
+    "category": "yeeeet",
+    "imgurl": "yeeeet",
+    "title": "yeeeet",
+    "price": 6,
+    "starRating": 6,
+    "numOfReviews": 6
+}

@@ -6,7 +6,12 @@
   "scripts": {
     "setup": "node ./database/mongodatabase/fakeData/fakeData.js",
     "build": "webpack -w",
-    "start": "nodemon ./server/index.js",
+    "start": "node ./server/index.js",
+    "start1": "node ./server/index.1.js",
+    "start2": "node ./server/index.2.js",
+    "start3": "node ./server/index.3.js",
+    "start4": "node ./server/index.4.js",
+    "start5": "node ./server/index.5.js",
     "lint": "eslint src",
     "test": "jest",
     "test:watch": "jest --watch"
@@ -49,6 +54,7 @@
     "jest": "^23.4.2",
     "mongoose": "^5.2.4",
     "mysql": "^2.16.0",
+    "newrelic": "^4.8.0",
     "nodemon": "^1.18.3",
     "normalize.css": "^8.0.0",
     "path": "^0.12.7",

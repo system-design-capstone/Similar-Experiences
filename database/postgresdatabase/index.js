@@ -14,8 +14,10 @@ const Sequelize = require('sequelize');
 // psql -h localhost
 
 
-const db = new Sequelize('simexp', 'tylermason', '', {
-    dialect: 'postgres'
+const db = new Sequelize('simexp', 'postgres', 'example', {
+    host: '54.183.231.150',
+    dialect: 'postgres',
+    logging: false
 })
 
 // docker

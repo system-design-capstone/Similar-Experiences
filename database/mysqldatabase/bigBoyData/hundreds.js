@@ -29,15 +29,15 @@
 const faker = require('Faker');
 const fs = require('fs');
 
-const write = fs.createWriteStream('./data.csv');
+const write = fs.createWriteStream('./data2.csv');
 
 writeTenMillionItems = (writer, data, encoding, callback) => {
-    let i = 10;
+    let i = 10000000;
     function write() {
         let ok = true;
         do {
             const model = [
-                i.toString(), // item_id
+                // i.toString(), // item_id
                 //   faker.commerce.productName(), // name
                 // review.id // review_id
                 faker.Address.city(),

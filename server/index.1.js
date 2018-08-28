@@ -11,11 +11,11 @@ const cors = require('cors');
 const request = require('supertest');
 
 const app = express();
-const port = 3001;
+const port = 3002;
 
 app.use(cors())
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded( {extended: false} ));
+app.use(bodyParser.urlencoded({extended: false}));
 app.use(express.static(path.join(__dirname, '../client/public')));
 
 app.use('/api', router)
