@@ -15,7 +15,8 @@ const Sequelize = require('sequelize');
 
 
 const db = new Sequelize('simexp', 'postgres', 'example', {
-    host: '54.183.231.150',
+    host: 'ec2-54-183-231-150.us-west-1.compute.amazonaws.com',
+    port: 5432,	
     dialect: 'postgres',
     logging: false
 })
